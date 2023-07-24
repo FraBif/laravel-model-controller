@@ -9,8 +9,8 @@
         @foreach ($movies as $movie)
             <div style="border: 1px solid #ccc; padding: 10px; margin-bottom: 10px;">
                 <h2>{{ $movie->title }}</h2>
-                <p>Anno: {{ $movie->nationality }}</p>
-                <p>Genere: {{ $movie->date }}</p>
+                <p>Nazionalità: {{ $movie->nationality }}</p>
+                <p>Data di uscita: {{ $movie->date }}</p>
             </div>
         @endforeach
     </div>
