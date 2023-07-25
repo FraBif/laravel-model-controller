@@ -12,7 +12,7 @@ class PageController extends Controller
     {
         $movies = Movie::all();
 
-        return view('guest.index', compact('movies'));
+        return view('index', compact('movies'));
     }
 }
 
