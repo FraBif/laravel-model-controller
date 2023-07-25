@@ -8,7 +8,7 @@ use App\Models\Movie;
 
 class PageController extends Controller
 {
-    public function index()
+    public function GetMovies()
     {
         $movies = Movie::all();
 
